@@ -78,6 +78,7 @@
 #  define MAGIC_ENUM_SUPPORTED 1
 #endif
 
+
 // Checks magic_enum compiler aliases compatibility.
 #if defined(__clang__) && __clang_major__ >= 5 || defined(__GNUC__) && __GNUC__ >= 9 || defined(_MSC_VER) && _MSC_VER >= 1920
 #  undef  MAGIC_ENUM_SUPPORTED_ALIASES
